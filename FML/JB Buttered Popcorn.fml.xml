@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FML version="0.3.1" xmlns="http://www.theworkers.net/FML">
+  <author>
+    <name>David Benque</name>
+    <email>flavourflav@mailinator.com</email>
+  </author>
+  <recipe>
+    <title>Jelly Belly - Buttered Popcorn</title>
+    <created>2015-05-03T15:21:00Z</created>
+    <modified>2015-05-09T21:43:54Z</modified>
+    <version>5.7</version>
+    <notes>A close imitation of my favorite Jelly Belly flavor</notes>
+    <units orientation="0.90950, 0.33948, 0.22193" type="nl" vector="0.76"/>
+  </recipe>
+  <source bank="C" flow="continuous" mBar="0.16">
+    <compounds>
+      <ester CID="Compound(8857)" description="nail polish remover, model paint, model airplane glue" name="Ethyl acetate">QTY: 25.420</ester>
+      <ester CID="Compound(6448)" description="pine" name="Bornyl acetate">QTY: 47.396</ester>
+      <ester CID="Compound(637520)" description="strawberry" name="Methyl cinnamate">QTY: 24.488</ester>
+      <ester CID="Compound(10890)" description="apricot, pear, pineapple" name="Pentyl butyrate">QTY: 27.104</ester>
+      <ester CID="Compound(12348)" description="apple, banana" name="Amyl acetate">QTY: 29.556</ester>
+      <ester CID="Compound(12180)" description="pineapple, apple, strawberry" name="Methyl butyrate">QTY: 42.955</ester>
+      <ester CID="Compound(8857)" description="nail polish remover, model paint, model airplane glue" name="Ethyl acetate">QTY: 6.347</ester>
+      <ester CID="Compound(8635)" description="cherry" name="Terpenyl butyrate">QTY: 12.649</ester>
+    </compounds>
+  </source>
+  <source bank="F" flow="continuous" mBar="0.14">
+    <compounds>
+      <ester CID="Compound(10890)" description="apricot, pear, pineapple" name="Pentyl butyrate">QTY: 57.034</ester>
+      <ester CID="Compound(8294)" description="lavender, sage" name="Linalyl acetate">QTY: 68.619</ester>
+      <ester CID="Compound(7165)" description="sweet, wintergreen, fruity, medicinal, cherry, grape" name="Ethyl benzoate">QTY: 8.304</ester>
+      <ester CID="Compound(12348)" description="apple, banana" name="Amyl acetate">QTY: 42.035</ester>
+      <ester CID="Compound(7945)" description="apple" name="Ethyl isovalerate">QTY: 28.264</ester>
+    </compounds>
+  </source>
+  <source bank="S" flow="continuous" mBar="0.05">
+    <compounds>
+      <ester CID="Compound(7945)" description="apple" name="Ethyl isovalerate">QTY: 3.866</ester>
+    </compounds>
+  </source>
+  <source bank="M" flow="inter" mBar="0.54">QTY: 2.29</source>
+</FML>

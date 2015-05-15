@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FML version="0.3.1" xmlns="http://www.theworkers.net/FML">
+ <author>
+   <name>David Benque</name>
+   <email></email>
+ </author>
+ <recipe>
+   <title>Jelly Belly - Cocktail Classics - Pomegranate Cosmo</title>
+   <created>2015-05-03T15:21:00Z</created>
+   <modified>2015-05-09T21:43:54Z</modified>
+   <version>2.2</version>
+   <notes>My first CFS(m) Flavor!</notes>
+   <units orientation="0.63513, 0.96112, 0.40701" type="nl" vector="0.73"/>
+ </recipe>
+ <source bank="C" flow="continuous" mBar="0.46">
+   <compounds>
+     <ester CID="Compound(7997)" description="pear" name="Propyl acetate">QTY: 0.000</ester>
+   </compounds>
+ </source>
+ <source bank="F" flow="continuous" mBar="0.31">
+   <compounds>
+     <ester CID="Compound(8164)" description="fruity-orange" name="Octyl acetate">QTY: 19.283</ester>
+     <ester CID="Compound(6448)" description="pine" name="Bornyl acetate">QTY: 0.000</ester>
+   </compounds>
+ </source>
+ <source bank="S" flow="continuous" mBar="0.10">
+   <compounds>
+     <ester CID="Compound(8025)" description="lemon, rum, strawberry" name="Ethyl formate">QTY: 28.510</ester>
+   </compounds>
+ </source>
+ <source bank="M" flow="inter" mBar="0.03">QTY: 0.35</source>
+</FML>

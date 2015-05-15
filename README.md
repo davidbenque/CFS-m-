@@ -10,20 +10,21 @@ The analysis and classification of flavors along a continuous spectrum [^4] has 
 
 In this setting, our initial research was concerned with flavor mapping following a network-based approach [^7] and focusing on convenience foods [^9]. A typical study would use High Performance Liquid Chromatography (HPLC) to separate off-the-shelf products  into their constituent components. The resulting fraction pool would then be quantified [^10] and modelled computationally [^11] to generate correlation analysis reports (fig. 2) between a pool of up to 4 products and the full flavour spectrum (fig. 1). Such results are used to optimise production systems by 1) Reducing costs across multiple product outputs. 2) Maximising the use of waste fractions into new outputs. 
 
-![image](figures/Flavor-Spectrum.jpg =400x)  
+<img src="figures/Flavor-Spectrum.jpg" style="width: 400px;"/>
+
 **Fig. 1 Flavor Spectrum**  
 [needs source]
 
 <div style="clear:both"></div>
 
-![image](figures/Correlation-Reports/CC-880.pdf =400x)
+<img src="figures/Correlation-Reports/CC-880.jpg"/>
 
 **Fig. 2 Flavor Correlation Chart**  
 **a.** Computational model output showing Correlation Coefficient (CC) for a given triple. **b.** contact sheet  
 [See full dataset](figures/Correlation-Reports) 
 <div style="clear:both"></div>
 
-<img src="figures/CC_contact-sheet.pdf"/>
+<img src="figures/CC_contact-sheet.jpg"/>
 
 
 
@@ -31,7 +32,7 @@ In this setting, our initial research was concerned with flavor mapping followin
 One recent study involved a top-tier market sample of 52 products on which we were running our established series of analysis methods. The sample pool was a median cross section of "shopping basket"[^12] items, so nothing prepared us for the remarkable results that our models delivered. Whereas we routinely witnessed correlation coefficients up to a maximum of 0.54, a specific sample of 3 products yielded a score of 0.95, meaning the pool of their components almost covered the entire flavour spectrum. We isolated the 3 products (Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™) and were able to reproduce coefficients between 0.94 and 0.96 in subsequent experiments. Checking the spectrum footprint against our existing databases revealed that the missing 0.06 to 0.04 could be closed significantly with the addition of a fourth source: Monosodium Glutamate (MSG)[^13]. The resulting pool (further referred to as CFS(m)) was ranked at up to 0.984 correlation coefficient by our model (fig. 3). Given the 0.15 error margin generally accepted by the flavour industry this is equivalent to a confident match with the full flavour spectrum.
 
 
-<img src="figures/CC-CFS-MSG.pdf"/>
+<img src="figures/CC-CFS-MSG.jpg"/>
 
 **Fig. 3 The CFS(m) Correlation**    
 **3.a.** Initial Correlation result of the CFS sample: Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™ against the flavour spectrum **3.b.** Footprint Record for Monosodium Glutamate (MSG). **3.c.** Combined CFS(m) Correlation showing a coefficient of 0.992
@@ -56,8 +57,8 @@ Fischer–Speier esterification
 
 Describe chip design, flows, etc here
 
-![image](figures/Lab-on-chip_C_separator.png =350x)
-![image](figures/LOC-closeup.jpg =350x)
+<img src="figures/Lab-on-chip_C_separator.png" style="float:left; width: 48%;"/>
+<img src="figures/LOC-closeup.jpg" style=" width: 48%"/>
 
 **Fig. 5 Lab-On-Chip Microchannel design**  
 descritption here [^14] **A:** Circuit Design **B:** Photograph showing micro channel etching (not yet!) 

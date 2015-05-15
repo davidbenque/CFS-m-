@@ -17,16 +17,13 @@ In this setting, our initial research was concerned with flavor mapping followin
 
 <div style="clear:both"></div>
 
-<img src="figures/Correlation-Reports/CC-880.jpg"/>
+<img src="figures/Correlation-Reports/CC-880.jpg"/> **A**
+
+<img src="figures/CC_contact-sheet.jpg"/> **B**
 
 **Fig. 2 Flavor Correlation Chart**  
-**a.** Computational model output showing Correlation Coefficient (CC) for a given triple. **b.** contact sheet  
+**A.** Computational model output showing Correlation Coefficient (CC) for a given triple. **B.** contact sheet  
 [See full dataset](figures/Correlation-Reports) 
-<div style="clear:both"></div>
-
-<img src="figures/CC_contact-sheet.jpg"/>
-
-
 
 
 One recent study involved a top-tier market sample of 52 products on which we were running our established series of analysis methods. The sample pool was a median cross section of "shopping basket"[^12] items, so nothing prepared us for the remarkable results that our models delivered. Whereas we routinely witnessed correlation coefficients up to a maximum of 0.54, a specific sample of 3 products yielded a score of 0.95, meaning the pool of their components almost covered the entire flavour spectrum. We isolated the 3 products (Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™) and were able to reproduce coefficients between 0.94 and 0.96 in subsequent experiments. Checking the spectrum footprint against our existing databases revealed that the missing 0.06 to 0.04 could be closed significantly with the addition of a fourth source: Monosodium Glutamate (MSG)[^13]. The resulting pool (further referred to as CFS(m)) was ranked at up to 0.984 correlation coefficient by our model (fig. 3). Given the 0.15 error margin generally accepted by the flavour industry this is equivalent to a confident match with the full flavour spectrum.
@@ -48,7 +45,7 @@ On the basis of this exceptional and unexpected match and computational proof, w
 Describe process here  
 Fischer–Speier esterification
 
-![image](figures/Experimental-Design.jpg)
+<img src="figures/Experimental-Design.jpg"/>
 
 **Fig. 4 Experimental Design**  
 **A:** High Performance Liquid Chromatography (HPLC) machine? de-gasing **B:** Bank C: Coca-Cola Classic™ (liquid) **C:** Bank F: Fanta Orange™ (liquid) **D:** Bank S: Sprite™ (liquid) **E:** Bank M: Monosodium Glutamate (solid) **F:** Syringe Pump. Accuracy of ±0.5% and reproducibility of ±0.05% - max. flow: 0.5ul **G:** Microfuidic Chip Separators **H:** Find a name for this **I:** Multi-pipette - capacity: xxml
@@ -57,8 +54,7 @@ Fischer–Speier esterification
 
 Describe chip design, flows, etc here
 
-<img src="figures/Lab-on-chip_C_separator.png" style="float:left; width: 48%;"/>
-<img src="figures/LOC-closeup.jpg" style=" width: 48%"/>
+<img src="figures/Lab-on-chip_C_separator.jpg"/>
 
 **Fig. 5 Lab-On-Chip Microchannel design**  
 descritption here [^14] **A:** Circuit Design **B:** Photograph showing micro channel etching (not yet!) 

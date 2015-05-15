@@ -6,9 +6,9 @@ Lanza T. [^1] and Benque D. [^2]
 We disclose an experimental apparatus and novel methods for ester synthesis in artificial flavour production using off-the-shelf ingredients. This new approach is the direct if serendipitous outcome of our ongoing research in flavor mapping using mass-spectrometry on convenience foods. We detail preliminary findings and experimental design, as well as a framework to build on these findings using two key components: the Flavor Markup Language (FML) and Synchronous On-Demand Aroma (SODA) Streaming API. On this basis we propose a new universal and distributed paradigm for computational [^8] flavour synthesis.
 
 ## Introduction
-The analysis and classification of flavors along a continuous spectrum[^4] has long been a key challenge for both food science and industry. Ester chain optimisation has made rapid progress in the last decade but some hurdles remain–a coherent systems approach still falls short of unifying niche areas such as coffee flavour[^6]. Consumer "clean label" [^5] concerns are placing existing systems under increasing pressure.
+The analysis and classification of flavors along a continuous spectrum [^4] has long been a key challenge for both food science and industry. Ester chain optimisation has made rapid progress in the last decade but some hurdles remain–a coherent systems approach still falls short of unifying niche areas such as coffee flavour [^6]. Consumer "clean label" [^5] concerns are placing existing systems under increasing pressure.
 
-In this setting, our initial research was concerned with flavor mapping following a network-based approach [^7] and focusing on convenience foods[^9]. A typical study would use High Performance Liquid Chromatography (HPLC) to separate off-the-shelf products  into their constituent components. The resulting fraction pool would then be quantified [^10] and modelled computationally [^11] to generate correlation analysis reports (fig. 2) between a pool of up to 4 products and the full flavour spectrum (fig. 1). Such results are used to optimise production systems by 1) Reducing costs across multiple product outputs. 2) Maximising the use of waste fractions into new outputs. 
+In this setting, our initial research was concerned with flavor mapping following a network-based approach [^7] and focusing on convenience foods [^9]. A typical study would use High Performance Liquid Chromatography (HPLC) to separate off-the-shelf products  into their constituent components. The resulting fraction pool would then be quantified [^10] and modelled computationally [^11] to generate correlation analysis reports (fig. 2) between a pool of up to 4 products and the full flavour spectrum (fig. 1). Such results are used to optimise production systems by 1) Reducing costs across multiple product outputs. 2) Maximising the use of waste fractions into new outputs. 
 
 <img src="figures/Flavor-Spectrum.jpg" style="float:left; width: 50%;"/>
 
@@ -21,7 +21,7 @@ In this setting, our initial research was concerned with flavor mapping followin
 
 **Fig. 2 Flavor Correlation Chart**  
 **a.** Computational model output showing Correlation Coefficient (CC) for a given triple. **b.** contact sheet  
-[See full dataset](http://) 
+[See full dataset](figures/Correlation-Reports) 
 <div style="clear:both"></div>
 
 <img src="figures/CC_contact-sheet.pdf"/>
@@ -133,15 +133,21 @@ FML File
 
 >> SODA Streaming API descriptions here 
 
+### Re-Assembly
+>> describe how the flavour-components are put back together!!
+
 ### Blind Tests
 >> Each CFS output was tested in a blind test alongside the original (eg. DORRITOS Cool American). Describe standard taste testing procedure here. 
+
 
 
 ## Results
 
 >> which tastes were replicated? 2 FML files use Jelly Belly flavors
+
 >> Table of results per ester
 
+>> Scatterplot of blind test result vs original flavor
 
 
 ## Conclusions

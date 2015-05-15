@@ -45,7 +45,7 @@ On the basis of this exceptional and unexpected match and computational proof, w
 Describe process here  
 Fischer–Speier esterification
 
-<img src="figures/Experimental-Design.jpg"/>
+<img src="figures/Experimental_Design.jpg"/>
 
 **Fig. 4 Experimental Design**  
 **A:** High Performance Liquid Chromatography (HPLC) machine? de-gasing **B:** Bank C: Coca-Cola Classic™ (liquid) **C:** Bank F: Fanta Orange™ (liquid) **D:** Bank S: Sprite™ (liquid) **E:** Bank M: Monosodium Glutamate (solid) **F:** Syringe Pump. Accuracy of ±0.5% and reproducibility of ±0.05% - max. flow: 0.5ul **G:** Microfuidic Chip Separators **H:** Find a name for this **I:** Multi-pipette - capacity: xxml

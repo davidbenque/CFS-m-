@@ -1,9 +1,9 @@
-# CFS(m): Proposal for a universal and distributed paradigm for computational flavor synthesis.
+# CFS(m): a universal paradigm for computational flavor synthesis.
 
 Lanza T. [^1] and Benque D. [^2]
 
 ## Abstract
-We disclose an experimental apparatus and novel methods for ester synthesis in artificial flavour production using off-the-shelf ingredients. This new approach is the direct if serendipitous outcome of our ongoing research in flavor mapping using mass-spectrometry on convenience foods. We detail preliminary findings and experimental design, as well as a framework to build on these findings using two key components: the Flavor Markup Language (FML) and Synthetic On-Demand Aroma (SODA) Streaming API. On this basis we propose a new universal and distributed paradigm for computational[^8] flavour synthesis.
+We disclose an experimental apparatus and novel methods for ester synthesis in artificial flavour production using off-the-shelf ingredients. This new approach is the direct if serendipitous outcome of our ongoing research in flavor mapping using mass-spectrometry on convenience foods. We detail preliminary findings and experimental design, as well as a framework to build on these findings using two key components: the Flavor Markup Language (FML) and Synchronous On-Demand Aroma (SODA) Streaming API. On this basis we propose a new universal and distributed paradigm for computational[^8] flavour synthesis.
 
 ## Introduction
 The analysis and classification of flavors along a continuous spectrum[^4] has long been a key challenge for both food science and industry. Ester chain optimisation has made rapid progress in the last decade but some hurdles remain–a coherent systems approach still falls short of unifying niche areas such as coffee flavour[^6]. Consumer "clean label"[^5] concerns are placing existing systems under increasing pressure.
@@ -20,28 +20,32 @@ taken from XXXXXXX
 <img src="figures/Correlation-Reports/CC-880.pdf" style="float:left; width: 400px;"/>
 
 **Fig. 2 Flavor Correlation Chart**  
-Computational model output showing Correlation Coefficient (CC) for a given triple. [See full dataset](http://)
-
+**a.** Computational model output showing Correlation Coefficient (CC) for a given triple. **b.** contact sheet  
+[See full dataset](http://) 
 <div style="clear:both"></div>
+
+<img src="figures/CC_contact-sheet.pdf"/>
+
+
+
 
 One recent study involved a top-tier market sample of 52 products on which we were running our established series of analysis methods. The sample pool was a median cross section of "shopping basket"[^12] items, so nothing prepared us for the remarkable results that our models delivered. Whereas we routinely witnessed correlation coefficients up to a maximum of 0.54, a specific sample of 3 products yielded a score of 0.95, meaning the pool of their components almost covered the entire flavour spectrum. We isolated the 3 products (Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™) and were able to reproduce coefficients between 0.94 and 0.96 in subsequent experiments. Checking the spectrum footprint against our existing databases revealed that the missing 0.06 to 0.04 could be closed significantly with the addition of a fourth source: Monosodium Glutamate (MSG)[^13]. The resulting pool (further referred to as CFS(m)) was ranked at up to 0.984 correlation coefficient by our model (fig. 3). Given the 0.15 error margin generally accepted by the flavour industry this is equivalent to a confident match with the full flavour spectrum.
 
 
-<img src="figures/CFS-CA-98.9.png" alt="Drawing" style="float:left; width: 400px;"/>
+<img src="figures/CC-CFS-MSG.pdf" alt="Drawing"/>
 
-**Fig. 2 Flavor Correlation Chat**  
+**Fig. 3 The CFS(m) Correlation**  
 [Click for full size](#)  
-Graph showing the best possible correlation outcome between products #12 and #03 and #28.
+**3.a.** Initial Correlation result between Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™  **3.b.** Footprint Record for Monosodium Glutamate (MSG). **3.c.** Combined CFS(m) Correlation showing a coefficient of 0.992
 
-<div style="clear:both"></div>
 
-Having found this exceptional and unexpected match and proven it computationally. We designed an initial wet-lab study to test the hypothesis chemically, the results of which are detailed here. Our aim was primarily to test the viability of CFS(m) in reproducing a range of flavors from our convenience foods database and, should this be successful, to establish protocols for the systematisation of CFS(m) synthesis for further experimentation, reproducibility and characterization. 
+On the basis of this exceptional and unexpected match and computational proof, we designed an initial wet-lab study to test the hypothesis chemically, the results of which are detailed here. Our aim was primarily to test the viability of CFS(m) in reproducing a range of flavors from our convenience foods database and, should this be successful, to establish protocols for the systematisation of CFS(m) synthesis for further experimentation, reproducibility and characterization. 
 
 
 ## Materials and Methods
 
 
->> Image of lab on chip circuit
+>> Image of lab on chip circuit (each C, F, S with component outputs)
 
 Fischer–Speier esterification
 

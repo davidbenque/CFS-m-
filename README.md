@@ -10,14 +10,13 @@ The analysis and classification of flavors along a continuous spectrum [^4] has 
 
 In this setting, our initial research was concerned with flavor mapping following a network-based approach [^7] and focusing on convenience foods [^9]. A typical study would use High Performance Liquid Chromatography (HPLC) to separate off-the-shelf products  into their constituent components. The resulting fraction pool would then be quantified [^10] and modelled computationally [^11] to generate correlation analysis reports (fig. 2) between a pool of up to 4 products and the full flavour spectrum (fig. 1). Such results are used to optimise production systems by 1) Reducing costs across multiple product outputs. 2) Maximising the use of waste fractions into new outputs. 
 
-<img src="figures/Flavor-Spectrum.jpg" style="float:left; width: 400px;"/>
-
+![image](figures/Flavor-Spectrum.jpg =400x)  
 **Fig. 1 Flavor Spectrum**  
 [needs source]
 
 <div style="clear:both"></div>
 
-<img src="figures/Correlation-Reports/CC-880.pdf" style="float:left; width: 50%;"/>
+![image](figures/Correlation-Reports/CC-880.pdf =400x)
 
 **Fig. 2 Flavor Correlation Chart**  
 **a.** Computational model output showing Correlation Coefficient (CC) for a given triple. **b.** contact sheet  
@@ -57,8 +56,8 @@ Fischer–Speier esterification
 
 Describe chip design, flows, etc here
 
-<img src="figures/Lab-on-chip_C_separator.png" style="float:left; width: 48%;"/>
-<img src="figures/LOC-closeup.jpg" style=" width: 48%"/>
+![image](figures/Lab-on-chip_C_separator.png =350x)
+![image](figures/LOC-closeup.jpg =350x)
 
 **Fig. 5 Lab-On-Chip Microchannel design**  
 descritption here [^14] **A:** Circuit Design **B:** Photograph showing micro channel etching (not yet!) 

@@ -10,7 +10,7 @@ The analysis and classification of flavors along a continuous spectrum [^4] has 
 
 In this setting, our initial research was concerned with flavor mapping following a network-based approach [^7] and focusing on convenience foods [^9]. A typical study would use High Performance Liquid Chromatography (HPLC) to separate off-the-shelf products  into their constituent components. The resulting fraction pool would then be quantified [^10] and modelled computationally [^11] to generate correlation analysis reports (fig. 2) between a pool of up to 4 products and the full flavour spectrum (fig. 1). Such results are used to optimise production systems by 1) Reducing costs across multiple product outputs. 2) Maximising the use of waste fractions into new outputs. 
 
-<img src="figures/Flavor-Spectrum.jpg" style="float:left; width: 50%;"/>
+<img src="figures/Flavor-Spectrum.jpg" style="float:left; width: 400px;"/>
 
 **Fig. 1 Flavor Spectrum**  
 [needs source]

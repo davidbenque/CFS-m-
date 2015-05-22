@@ -68,7 +68,8 @@ descritption here [^14] **A:** Circuit Design **B:** Photograph showing micro ch
 ### Flavor Markup Language (FML)
 
 Describe FML spec.   
-format, syntax, etc... should be taken from any other XML spec
+format, syntax, etc... should be taken from any other XML spec  
+[Link to FML directory](FML/)
 
 ```
 FML File
@@ -143,7 +144,10 @@ FML File
 
 >> Table of results per ester
 
->> Scatterplot of blind test result vs original flavor
+Blind Test results:
+<img src="figures/case-studies/Cantaloupe.gif"/>
+<img src="figures/case-studies/CoolRanch.gif"/>
+<img src="figures/case-studies/TomYam.gif"/>
 
 
 ## Conclusions
@@ -152,6 +156,7 @@ FML File
 >> CFS(m) Could be extended to all flavors, further experimentation. FML Library?   
 >> question "clean Label" aspirations? 
 
+## References
 
 [^1]: Lanza Affiliation
 [^2]: Benque Affiliation 

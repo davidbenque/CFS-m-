@@ -2,6 +2,9 @@
 
 Lanza T. [^1] and Benque D. [^2]
 
+[^1]: Lanza Affiliation
+[^2]: Benque Affiliation 
+
 ## Abstract
 We disclose an experimental apparatus and novel methods for ester synthesis in artificial flavour production using off-the-shelf ingredients. This new approach is the direct if serendipitous outcome of our ongoing research in flavor mapping using mass-spectrometry on convenience foods. We detail preliminary findings and experimental design, as well as a framework to build on these findings using two key components: the Flavor Markup Language (FML) and Synchronous On-Demand Aroma (SODA) Streaming API. On this basis we propose a new universal and distributed paradigm for computational [^8] flavour synthesis.
 
@@ -57,19 +60,15 @@ Describe chip design, flows, etc here
 <img src="figures/Lab-on-chip_C_separator.jpg"/>
 
 **Fig. 5 Lab-On-Chip Microchannel design**  
-descritption here [^14] **A:** Circuit Design **B:** Photograph showing micro channel etching (not yet!) 
-
-
+descritption here [^14] **A:** Circuit Design **B:** Photograph showing micro channel etching
 
 <div style="clear:both"></div>
 
->> ADD RENDER OF LAB ON CHIP CLOSE-UP?
-
 ### Flavor Markup Language (FML)
 
-Describe FML spec.   
-format, syntax, etc... should be taken from any other XML spec  
-[Link to FML directory](FML/)
+>> Describe FML spec.   
+>> format, syntax, etc... should be taken from any other XML spec? 
+>> [Link to FML directory](FML/)
 
 ```
 FML File
@@ -87,79 +86,47 @@ FML File
     |- Source (C,F,S or m)
        |- Compounds
           |- Esters
-
 ```
 
-**Fig. 6** FML tree
+**Fig. 6** FML tree - see [example file](FML/example.fml.xml)
 
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<FML version="0.3.1" xmlns="http://www.theworkers.net/FML">
- <author>
-   <name>David Benque</name>
-   <email></email>
- </author>
- <recipe>
-   <title>Jelly Belly - Cocktail Classics - Pomegranate Cosmo</title>
-   <created>2015-05-03T15:21:00Z</created>
-   <modified>2015-05-09T21:43:54Z</modified>
-   <version>2.2</version>
-   <notes>My first CFS(m) Flavor!</notes>
-   <units orientation="0.63513, 0.96112, 0.40701" type="nl" vector="0.73"/>
- <source bank="C" flow="continuous" mBar="0.46">
-   <compounds>
-     <ester CID="Compound(7997)" description="pear" name="Propyl acetate">QTY: 0.000</ester>
-   </compounds>
- </source>
- <source bank="F" flow="continuous" mBar="0.31">
-   <compounds>
-     <ester CID="Compound(8164)" description="fruity-orange" name="Octyl acetate">QTY: 19.283</ester>
-     <ester CID="Compound(6448)" description="pine" name="Bornyl acetate">QTY: 0.000</ester>
-   </compounds>
- </source>
- <source bank="S" flow="continuous" mBar="0.10">
-   <compounds>
-     <ester CID="Compound(8025)" description="lemon, rum, strawberry" name="Ethyl formate">QTY: 28.510</ester>
-   </compounds>
- </source>
- <source bank="M" flow="inter" mBar="0.03">QTY: 0.35</source>
-</recipe>
-</FML>
-```
-**Fig. 7** Sample FML recipe - [source file](FML/example.fml.xml)
 
 >> SODA Streaming API descriptions here 
+
 
 ### Re-Assembly
 >> describe how the flavour-components are put back together!!
 
 ### Blind Tests
->> Each CFS output was tested in a blind test alongside the original (eg. DORRITOS Cool American). Describe standard taste testing procedure here. 
+The exactitude of CFS(m) flavor replicas was refined through an iterative process, using randomized blind tests as an assessment method. These were conducted for 3 case studies, using a random sample of 10 convenience foods consumers. The subjects were identified in supermarket aisles and chosen for their familiarity with the product being tested. Informed consent was obtained before any studies were carried out.
 
+For optimal taste sensitivity, subjects were tested in the fasting state. Smokers were asked not to smoke for the 2 hours prior to taste testing. Water was allowed up to the time of testing[^15]. Taste testing was done by using the three drop stimulus technique[^16]: one drop of flavor extract from the target product, one drop of water (placebo) and one drop of CFS(m) test solution. The 3 drops were presented in a varied order in a mixed design[^15].
 
+For each case study, flavor blind tests were conducted on three non-consecutive days, giving the team time to adjust teh CFS(m) models and produce new FML recipes to be tested in the next wave. After each stimulus, subjects were asked to name, if any was recognised, the product they were tasting. Flavor profiles were characterised by asking subject to grade the strength of 5 characteristics: Sweetness, Acidity, Saltiness, Bitterness and Richness/Umami on a scale of 0 to 10. Results were plotted as radar graphs (fig. 7) showing the target flavor profile against the error margin defined by blind test results. An optimal process of 3 iterations was identified as consistently yielding the most efficient reduction of the error margin.  
 
 ## Results
 
->> which tastes were replicated? 2 FML files use Jelly Belly flavors
+<img src="figures/case-studies/Cantaloupe.gif"/>  
+**1**
+<img src="figures/case-studies/CoolRanch.gif"/>  
+**2**
+<img src="figures/case-studies/TomYam.gif"/>  
+**3**
 
->> Table of results per ester
-
-Blind Test results:
-<img src="figures/case-studies/Cantaloupe.gif"/>
-<img src="figures/case-studies/CoolRanch.gif"/>
-<img src="figures/case-studies/TomYam.gif"/>
-
+**Fig. 7** Blind Test results: Iterative Flavor Profile matching  
+3 case studies: **1:** Jelly Belly® Cantaloupe **2:** DORITOS® COOL RANCH® **3:** MAGGI 2-Minute Noodles Tom Yam. The triple iterative process is demonstrated as weel as efficient reductions of error margins. Flavor profiles are shown as **A:** Sweetness, **B:** Acidity, **C:** Saltiness, **D:** Bitterness and **E:** Richness/Umami.
 
 ## Conclusions
+The methods and protocols developed in this study demonstrate that flavor can be replicated in a quantitative and systematic manner[^17] though a modular computational approach. This lays the foundations for a paradigm shift in flavor synthesis.
 
->> Modular systems CMYK, RGB: **CFS is the RGB of Flavor**  
->> CFS(m) Could be extended to all flavors, further experimentation. FML Library?   
->> question "clean Label" aspirations? 
+Our experiments confirm the hypothesis that Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™, with the addition of Monosodium Glutamate (MSG), are the primary components of an ester palette from which every flavor in the world can be recreated. Analogies to color theory's additive (RGB) or substractive (CMYK) color spaces[^18], suggest that a CFS(m) flavor system could increase the efficiency of flavor synthesis by several orders of magnitude. The variety of digital color models currently in operation for specific purposes (eg. RGB, HSV, Hexadecimal, RAL, Pantone™, etc) highlight the potential for standardisation and replicability across global networks of suppliers, industries and consumers. 
+
+Our iterative testing methods show that the FML file format provides a robust data structure for flavor semantics while remainging fairly readable. We hope it will encourage further research from the community. Immediate next goals include further experimentation with experiment design as well as characterisation in order to expand the scope of CFS(m) flavor space. 
+
+
 
 ## References
 
-[^1]: Lanza Affiliation
-[^2]: Benque Affiliation 
 [^4]: MATTHEWS, J. S., SUGISAWA, H. and MAC GREGOR, D. R. (1962), The Flavor Spectrum of Apple-Wine Volatiles. *Journal of Food Science*, 27: 355–362.
 [^5]: Zink, D. L. (1997). The impact of consumer demands and trends on food processing. *Emerging Infectious Diseases*, 3(4), 467.
 [^6]:Shibamoto, T. (1991). An overview of coffee aroma and flavor chemistry. In *Quatorzieme colloque scientifique international sur le cafe*, San Francisco, 14-19 juillet 1991. (pp. 107-116).
@@ -171,3 +138,7 @@ Blind Test results:
 [^12]: Manchanda, P., Ansari, A., & Gupta, S. (1999). The “shopping basket”: A model for multicategory purchase incidence decisions. *Marketing Science*, 18(2), 95-114.
 [^13]: [http://pubchem.ncbi.nlm.nih.gov/compound/23672308](http://pubchem.ncbi.nlm.nih.gov/compound/23672308)
 [^14]: [http://www.thisamericanlife.org/radio-archives/episode/427/original-recipe/recipe](http://www.thisamericanlife.org/radio-archives/episode/427/original-recipe/recipe)
+[^15]:Mahajan, S. K., Prasad, A. S., Lambujon, J., Abbasi, A. A., Briggs, W. A., & McDonald, F. D. (1980). Improvement of uremic hypogeusia by zinc: a double-blind study. *The American journal of clinical nutrition*, 33(7), 1517-1521.
+[^16]:Henkin, R. I., Gill Jr, J. R., & Bartter, F. C. (1963). Studies on taste thresholds in normal man and in patients with adrenal cortical insufficiency: the role of adrenal cortical steroids and of serum sodium concentration. *Journal of Clinical Investigation*, 42(5), 727.
+[^17]:HENKIN, R. I., SCHECTER, P. J., FRIEDEWALD, W. T., DEMETS, D. L., & RAFF, M. (1976). A double blind study of the effects of zinc sulfate on taste and smell dysfunction. *The American journal of the medical sciences*, 272(3), 285-299.
+[^18]: Newton, I. (1704). *Opticks: or a treatise of the reflexions, refractions, inflexions and colours of light.*

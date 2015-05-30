@@ -2,21 +2,22 @@
 
 Lanza T.[^1] and Benque D.[^2]
 
-[^1]: Lanza Affiliation
+[^1]: Lanza Affiliation 
 [^2]: Benque Affiliation 
+<!--These should be formatted differently than your regular reference footnotes for the print version at least, with your affiliations at the bottom of the first page or immediately under your names. The markdown will just put them all at the end of the page, I wonder if in the HTML version for the website if we can do it without an actual footnote link? Your names would be at the top of the page anyway with the title and links to your author page on our website.-->
 
 ## Abstract
-We disclose an experimental apparatus and novel methods for ester synthesis in artificial flavour production using off-the-shelf ingredients. This new approach is the direct if serendipitous outcome of our ongoing research in flavor mapping using mass-spectrometry on convenience foods. We detail preliminary findings and experimental design, as well as a framework to build on these findings using two key innovations: the Flavor Markup Language (FML) and Synchronous On-Demand Aroma (SODA) Streaming API. On this basis we propose a new universal and distributed paradigm for computational [^8] flavour synthesis.
+We disclose an experimental apparatus and novel methods for ester synthesis in artificial flavor production using off-the-shelf ingredients. This new approach is the direct—if serendipitous—outcome of our ongoing research in flavor mapping using mass spectrometry on convenience foods. We detail preliminary findings and experimental design, as well as a framework to build on these findings using two key innovations: the Flavor Markup Language (FML) and Synchronous On-Demand Aroma (SODA) Streaming API. On this basis we propose a new universal and distributed paradigm for computational [^8] <!--ideally footnotes would be numbered in order--> flavor synthesis.
 
 ## Introduction
 The analysis and classification of flavors along a continuous spectrum[^4] has long been a key challenge for both food science and industry. Ester chain optimisation has made rapid progress in the last decade but some hurdles remain–a coherent systems approach still falls short of unifying niche areas such as coffee flavor[^6]. Consumer "clean label"[^5] concerns are also placing existing systems under increasing pressure.
 
-In this setting, our initial research was concerned with flavor mapping following a network-based approach[^7] and focusing on convenience foods[^9]. A typical study would use High Performance Liquid Chromatography (HPLC) to separate off-the-shelf products  into their constituent components. The resulting fraction pool would then be quantified[^10] and modelled computationally[^11] to generate correlation analysis reports (fig. 2) between a pool of up to 4 products and the full flavour spectrum (fig. 1). Such results are typically commissioned and used to optimise production systems by 1) Reducing costs across multiple product outputs. 2) Maximising the use of waste fractions into new outputs. 
+In this setting, our initial research was concerned with flavor mapping following a network-based approach[^7] and focusing on convenience foods[^9]. A typical study would use High Performance Liquid Chromatography (HPLC) to separate off-the-shelf products into their constituent components. The resulting fraction pool would then be quantified[^10] and modelled computationally[^11] to generate correlation analysis reports (fig. 2) between a pool of up to 4 products and the full flavor spectrum (fig. 1). Such results are typically commissioned and used to optimise production systems by 1) Reducing costs across multiple product outputs. 2) Maximising the use of waste fractions into new outputs. 
 
 <img src="figures/Flavor-Spectrum.jpg" style="width: 400px;"/>
 
 **Fig. 1 Flavor Spectrum**  
->> needs source
+>> needs source <!--would it be very difficult to redraw this? Is it high enough resolution for print? We can only use things you made or public domain/non-commercial creative commons-->
 
 <div style="clear:both"></div>
 
@@ -28,25 +29,25 @@ In this setting, our initial research was concerned with flavor mapping followin
 **A.** Computational model output exemplar showing Correlation Coefficient (CC) for a given triple. **B.** Full result set
 [See full dataset](figures/Correlation-Reports) 
 
-One recent study involved a top-tier market sample of 52 products on which we were running our established series of analysis methods. The sample pool was a median cross section of "shopping basket"[^12] items, so nothing prepared us for the remarkable results that our models delivered. 
+One recent study involved a top-tier market sample of 52 products on which we were running our established series of analysis methods. The sample pool was a median cross section of "shopping basket"[^12] items, so nothing prepared us for the remarkable results that our models delivered. <!--scientists don't usually write like this, or say things like "serendipitous" in the abstract! It's actually a funny signal about how you are artists more than scientists if anything else; scientists would say "our analysis of 52 items identified 4 products..." and that's it-->
 
-We were using a Correlation Coefficient variable between 0.0 and 1.0 as a proxy for mapping multi-dimensional flavor space, with 1.0 as the hypoethical perfect match with the full flavor spectrum. We routinely witnessed correlation coefficients up to a maximum of 0.54, however a specific sample of 3 products yielded a score of 0.95, meaning the pool of their components almost covered the entire flavour space. 
+We were using a Correlation Coefficient variable between 0.0 and 1.0 as a proxy for mapping multi-dimensional flavor space, with 1.0 as the hypoethical perfect match with the full flavor spectrum. We routinely witnessed correlation coefficients up to a maximum of 0.54, however a specific sample of 3 products yielded a score of 0.95, meaning the pool of their components almost covered the entire flavor space. 
 
-We isolated the 3 products (Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™) and were able to reproduce coefficients between 0.94 and 0.96 in subsequent experiments. Checking the spectrum footprint against our existing databases revealed that the missing 0.06 to 0.04 could be closed significantly with the addition of a fourth source: Monosodium Glutamate (MSG)[^13]. The resulting pool (further referred to as CFS(m)) was ranked at up to 0.984 correlation coefficient by our model (fig. 3). Given the 0.15 error margin generally accepted by the flavour industry this is equivalent to a confident match with the full flavour spectrum.
+We isolated the 3 products (Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™) and were able to reproduce coefficients between 0.94 and 0.96 in subsequent experiments. Checking the spectrum footprint against our existing databases revealed that the missing 0.06 to 0.04 could be closed significantly with the addition of a fourth source: Monosodium Glutamate (MSG)[^13]. The resulting pool (further referred to as CFS(m)) was ranked at up to 0.984 correlation coefficient by our model (fig. 3). Given the 0.15 error margin generally accepted by the flavor industry this is equivalent to a confident match with the full flavor spectrum.
 
 <img src="figures/CC-CFS-MSG.jpg"/>
 
 **Fig. 3 The CFS(m) Correlation**    
-**3.a.** Initial Correlation result of the CFS sample: Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™ against the flavour spectrum **3.b.** Footprint Record for MSG. **3.c.** Combined CFS(m) Correlation showing a coefficient of 0.992
+**3.a.** Initial Correlation result of the CFS sample: Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™ against the flavor spectrum **3.b.** Footprint Record for MSG. **3.c.** Combined CFS(m) Correlation showing a coefficient of 0.992
 
-On the basis of this exceptional and unexpected match and computational proof, we designed an initial wet-lab study to test the hypothesis chemically, the results of which are detailed here. Our aim was primarily to test the viability of CFS(m) in reproducing a range of flavors from our convenience foods database and, should this be successful, to establish protocols for the systematisation of CFS(m) synthesis for further experimentation, reproducibility and characterization. 
+On the basis of this exceptional match, we designed a study to test the hypothesis chemically, the results of which are detailed here. Our aim was primarily to test the viability of CFS(m) in reproducing a range of flavors from our convenience foods database and, should this be successful, to establish protocols for the systematisation of CFS(m) synthesis for further experimentation, reproducibility and characterization. 
 
 
 ## Materials and Methods
 
 ### Experimental Design 
 
-We settled on High Performance Liquid Chromatography (HPLC) for its flexibility at this exploratory stage in the research. Compatibility was a key constraint as our setup included a de-gazing system for 3 inputs (Coca-Cola Classic, Fanta Orange and Sprite) and a pellet solution for 1 input (MSG). Solutions were then pumped into microfluidic lab-on-chip devices for separation, resulting in 43 different compound feeds. These were all connected to a multichannel peptide synthesizer for re-assemby into the final output. Synthesis instructions were compiled by the FML parser and transmitted to the synthesizer synchronously with our SODA Streaming API. 
+We settled on High Performance Liquid Chromatography (HPLC) for its flexibility at this exploratory stage in the research. Compatibility was a key constraint as our setup included a de-gazing <!--what does this mean? Do you mean de-gassing?--> system for 3 inputs (Coca-Cola Classic, Fanta Orange and Sprite) and a pellet solution for 1 input (MSG). Solutions were then pumped into microfluidic lab-on-chip devices for separation, resulting in 43 different compound feeds. These were all connected to a multichannel peptide synthesizer for re-assemby into the final output. Synthesis instructions were compiled by the FML parser and transmitted to the synthesizer synchronously with our SODA Streaming API. 
 
 <img src="figures/Experimental_Design.jpg"/>
 
@@ -62,7 +63,8 @@ Showing separation pathways for Coca-Cola Classic into its 15 basic components[^
 
 <div style="clear:both"></div>
 
-### Flavor Markup Language (FML)
+### Flavor Markup Language (FML) 
+<!--Is this a section of your materials and methods? Or part of your results? Maybe just a few sentences here like "we developed an easy to use language for flavor profiling using the CFS(m) system..."-->
  
 Please see example files in the [FML directory](FML/)
 
@@ -95,7 +97,7 @@ The exactitude of CFS(m) flavor replicas was refined through an iterative proces
 
 For optimal taste sensitivity, subjects were tested in the fasting state. Smokers were asked not to smoke for the 2 hours prior to taste testing. Water was allowed up to the time of testing[^15]. Taste testing was done by using the three drop stimulus technique[^16]: one drop of flavor extract from the target product, one drop of water (placebo) and one drop of CFS(m) test solution. The 3 drops were presented in a varied order in a mixed design[^15].
 
-For each case study, flavor blind tests were conducted on three non-consecutive days, giving the team time to adjust teh CFS(m) models and produce new FML recipes to be tested in the next wave. After each stimulus, subjects were asked to name, if any was recognised, the product they were tasting. Flavor profiles were characterised by asking subject to grade the strength of 5 characteristics: Sweetness, Acidity, Saltiness, Bitterness and Richness/Umami on a scale of 0 to 10. Results were plotted as radar graphs (fig. 7) showing the target flavor profile against the error margin defined by blind test results. An optimal process of 3 iterations was identified as consistently yielding the most efficient reduction of the error margin.  
+For each case study, blind flavor tests were conducted on three non-consecutive days. After each stimulus, subjects were asked to name, if any was recognized, the product they were tasting. Flavor profiles were characterized by asking subject to grade the strength of 5 characteristics: sweetness, acidity, saltiness, bitterness and richness/umami <!--ok, so this is "taste" which is different from "flavor!" I think you're probably too deep in to change it, but to really do a flavor panel you need to get people to give words describing flavors like you would have on the flavor wheel and then you can analyze those lists of words for patterns.--> on a scale of 0 to 10. Results were plotted as radar graphs (fig. 7) showing the target flavor profile against the error margin defined by blind test results. An optimal process of 3 iterations was identified as consistently yielding the most efficient reduction of the error margin. <!--so on the first day you weren't very good at matching the flavor of the original and then you got better? I think a more useful results graph would show how people describe the original thing, compared to how they describe the flavor of the CFS(m) model. I think the radar graphs look great and you would really only need to show two, the original food and the mimic. I don't think you need the iterative approach, I think that just adds complication for no reason.--> 
 
 ## Results
 
@@ -107,16 +109,16 @@ For each case study, flavor blind tests were conducted on three non-consecutive 
 **3**
 
 **Fig. 7** Blind Test results: Iterative Flavor Profile matching  
-3 case studies: **1:** Jelly Belly® Cantaloupe **2:** DORITOS® COOL RANCH® **3:** MAGGI 2-Minute Noodles Tom Yam. The triple iterative process is demonstrated as weel as efficient reductions of error margins. Flavor profiles are shown as **A:** Sweetness, **B:** Acidity, **C:** Saltiness, **D:** Bitterness and **E:** Richness/Umami.
+3 case studies: **1:** Jelly Belly® Cantaloupe **2:** DORITOS® COOL RANCH® **3:** MAGGI 2-Minute Noodles Tom Yam. The triple iterative process is demonstrated as well as efficient reductions of error margins. Flavor profiles are shown as **A:** Sweetness, **B:** Acidity, **C:** Saltiness, **D:** Bitterness and **E:** Richness/Umami.
 
 ## Conclusions
-The methods and protocols developed in this study demonstrate that flavor can be replicated in a quantitative and systematic manner[^17] though a modular computational approach. This lays the foundations for a paradigm shift in flavor synthesis.
+The methods and protocols developed in this study demonstrate that flavor can be replicated in a quantitative and systematic manner[^17] through a modular computational approach. This lays the foundations for a paradigm shift in flavor synthesis.
 
-Our experiments confirm the hypothesis that Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™, with the addition of Monosodium Glutamate (MSG), can be broken down into their basic components and re-combined to form an ester palette from which every flavor in the world can be recreated. Analogies to color theory's additive (RGB) or substractive (CMYK) color spaces[^18] suggest that flavour synthesis may have found, at long last, its primary colors in the form of CFS(m). Such a flavor system has the potential to increase the efficiency of our industry by several orders of magnitude, while maintaining an acceptable degree of flavour diversity. 
+Our experiments confirm the hypothesis that Coca-Cola Company's Coca-Cola Classic™, Fanta Orange™ and Sprite™, with the addition of Monosodium Glutamate (MSG), can be broken down into their basic components and re-combined to form an ester palette from which every flavor in the world can be recreated. Analogies to color theory's additive (RGB) or substractive (CMYK) color spaces[^18] suggest that flavor synthesis may have found, at long last, its primary colors in the form of CFS(m). Such a flavor system has the potential to increase the efficiency of our industry by several orders of magnitude, while maintaining an acceptable degree of flavor diversity. 
 
 The variety of digital color models currently in operation for specific purposes (eg. RGB, HSV, Hexadecimal, RAL, Pantone™, etc) highlight the potential for standardisation and replicability across global networks of suppliers, industries and consumers. 
 
-Our iterative testing methods show that the FML file format provides a robust data structure for flavor semantics while remainging fairly readable. We hope it will encourage further research from the community that will expand the scope of characterised CFS(m) flavor space. 
+Our iterative testing methods show that the FML file format provides a robust data structure for flavor semantics while remaining fairly readable. We hope <!--Can you leave us with something a bit stronger than hope? Like "Adoption by the wider flavor community as a flavor standard will enable the CFS(m) flavor system to reproduce any conceivable flavor."--> it will encourage further research from the community that will expand the scope of characterized CFS(m) flavor space. 
 
 
 ## References

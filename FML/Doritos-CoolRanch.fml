@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FML version="0.3.1" xmlns="http://www.theworkers.net/FML">
+  <author>
+    <name>Tommaso Lanza</name>
+    <email>t@theworkers.net</email>
+  </author>
+  <recipe>
+    <title>Doritos - Cool Ranch</title>
+    <created>2015-05-29T09:12:00Z</created>
+    <modified>2015-06-01T22:57:12Z</modified>
+    <version>2.4</version>
+    <notes>Second case study for the paper - this version works! please fork to experiment further</notes>
+    <units orientation="0.44945, 0.83903, 0.86028" type="nl" vector="0.89"/>
+  </recipe>
+  <source bank="C" flow="continuous" mBar="0.20">
+    <compounds>
+      <ester CID="Compound(637520)" description="strawberry" name="Methyl cinnamate">QTY: 45.086</ester>
+      <ester CID="Compound(1549026)" description="geranium" name="Geranyl acetate">QTY: 28.765</ester>
+      <ester CID="Compound(7559)" description="honey" name="Methyl phenylacetate">QTY: 0.219</ester>
+      <ester CID="Compound(7150)" description="fruity, ylang ylang, feijoa" name="Methyl benzoate">QTY: 46.099</ester>
+      <ester CID="Compound(62321)" description="peach" name="Linalyl butyrate">QTY: 37.498</ester>
+      <ester CID="Compound(6584)" description="glue" name="Methyl acetate">QTY: 0.239</ester>
+      <ester CID="Compound(7983)" description="pineapple" name="Butyl butyrate">QTY: 17.325</ester>
+    </compounds>
+  </source>
+  <source bank="F" flow="continuous" mBar="0.25">
+    <compounds>
+      <ester CID="Compound(637520)" description="strawberry" name="Methyl cinnamate">QTY: 51.090</ester>
+      <ester CID="Compound(8025)" description="lemon, rum, strawberry" name="Ethyl formate">QTY: 0.495</ester>
+      <ester CID="Compound(12348)" description="apple, banana" name="Amyl acetate">QTY: 24.961</ester>
+      <ester CID="Compound(61030)" description="parsnip" name="Octyl butyrate">QTY: 68.895</ester>
+      <ester CID="Compound(8785)" description="pear, strawberry, jasmine" name="Benzyl acetate">QTY: 31.089</ester>
+      <ester CID="Compound(8635)" description="grape, jasmine" name="Methyl anthranilate">QTY: 27.930</ester>
+      <ester CID="Compound(7165)" description="sweet, wintergreen, fruity, medicinal, cherry, grape" name="Ethyl benzoate">QTY: 3.743</ester>
+      <ester CID="Compound(31251)" description="grape" name="Ethyl nonanoate">QTY: 23.529</ester>
+      <ester CID="Compound(8025)" description="lemon, rum, strawberry" name="Ethyl formate">QTY: 3.254</ester>
+    </compounds>
+  </source>
+  <source bank="S" flow="continuous" mBar="0.22">
+    <compounds>
+      <ester CID="Compound(7983)" description="pineapple" name="Butyl butyrate">QTY: 27.752</ester>
+      <ester CID="Compound(10890)" description="apricot, pear, pineapple" name="Pentyl butyrate">QTY: 36.651</ester>
+      <ester CID="Compound(11529)" description="pear drops" name="Butyl propanoate">QTY: 59.542</ester>
+      <ester CID="Compound(7762)" description="banana, pineapple, strawberry" name="Ethyl butyrate">QTY: 19.914</ester>
+      <ester CID="Compound(7150)" description="fruity, ylang ylang, feijoa" name="Methyl benzoate">QTY: 6.318</ester>
+      <ester CID="Compound(12348)" description="apple, banana" name="Amyl acetate">QTY: 11.714</ester>
+    </compounds>
+  </source>
+  <source bank="M" flow="inter" mBar="0.40">QTY: 5.96</source>
+</FML>

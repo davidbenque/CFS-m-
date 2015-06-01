@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FML version="0.3.1" xmlns="http://www.theworkers.net/FML">
+  <author>
+    <name>David Benque</name>
+    <email>mail@davidbenque.com</email>
+  </author>
+  <recipe>
+    <title>Maggi Tom Yam</title>
+    <created>2015-04-03T07:03:34Z</created>
+    <modified>2015-05-19T23:56:02Z</modified>
+    <version>9.6</version>
+    <notes>Third case study for the paper</notes>
+    <units orientation="0.74108, 0.67319, 0.04830" type="nl" vector="0.65"/>
+  </recipe>
+  <source bank="C" flow="continuous" mBar="0.40">
+    <compounds>
+      <ester CID="Compound(7762)" description="banana, pineapple, strawberry" name="Ethyl butyrate">QTY: 55.788</ester>
+      <ester CID="Compound(12571)" description="rum" name="Propyl isobutyrate">QTY: 9.560</ester>
+      <ester CID="Compound(4133)" description="Modern root beer, wintergreen, Germolene" name="Methyl salicylate">QTY: 13.457</ester>
+      <ester CID="Compound(10882)" description="apple" name="Ethyl pentanoate">QTY: 1.541</ester>
+      <ester CID="Compound(61030)" description="parsnip" name="Octyl butyrate">QTY: 3.350</ester>
+      <ester CID="Compound(7983)" description="pineapple" name="Butyl butyrate">QTY: 28.382</ester>
+      <ester CID="Compound(8038)" description="cherry, raspberry, strawberry" name="Isobutyl acetate">QTY: 1.252</ester>
+      <ester CID="Compound(8857)" description="nail polish remover, model paint, model airplane glue" name="Ethyl acetate">QTY: 3.944</ester>
+      <ester CID="Compound(10886)" description="apple, pineapple" name="Pentyl hexanoate">QTY: 2.407</ester>
+    </compounds>
+  </source>
+  <source bank="F" flow="continuous" mBar="0.28">
+    <compounds>
+      <ester CID="Compound(8294)" description="lavender, sage" name="Linalyl acetate">QTY: 15.841</ester>
+      <ester CID="Compound(10890)" description="apricot, pear, pineapple" name="Pentyl butyrate">QTY: 40.166</ester>
+    </compounds>
+  </source>
+  <source bank="S" flow="continuous" mBar="0.48">
+    <compounds>
+      <ester CID="Compound(7983)" description="pineapple" name="Butyl butyrate">QTY: 37.839</ester>
+      <ester CID="Compound(12180)" description="pineapple, apple, strawberry" name="Methyl butyrate">QTY: 31.902</ester>
+      <ester CID="Compound(61030)" description="parsnip" name="Octyl butyrate">QTY: 12.097</ester>
+      <ester CID="Compound(7344)" description="butter, cream" name="Ethyl lactate">QTY: 14.802</ester>
+      <ester CID="Compound(8164)" description="fruity-orange" name="Octyl acetate">QTY: 60.528</ester>
+      <ester CID="Compound(7945)" description="apple" name="Ethyl isovalerate">QTY: 5.592</ester>
+    </compounds>
+  </source>
+  <source bank="M" flow="inter" mBar="0.12">QTY: 0.67</source>
+</FML>

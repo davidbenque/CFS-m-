@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FML version="0.3.1" xmlns="http://www.theworkers.net/FML">
+  <author>
+    <name>David Benque</name>
+    <email>mail@davidbenque.com</email>
+  </author>
+  <recipe>
+    <title>Jelly Belly - Cataloupe</title>
+    <created>2015-05-03T15:21:00Z</created>
+    <modified>2015-05-09T21:43:54Z</modified>
+    <version>5.7</version>
+    <notes>the first CFS(m) case study for blind testing</notes>
+    <units orientation="0.19740, 0.41407, 0.58714" type="nl" vector="0.57"/>
+  </recipe>
+  <source bank="C" flow="continuous" mBar="0.54">
+    <compounds>
+      <ester CID="Compound(82605)" description="apple" name="Geranyl pentanoate">QTY: 39.897</ester>
+      <ester CID="Compound(7983)" description="pineapple" name="Butyl butyrate">QTY: 23.236</ester>
+      <ester CID="Compound(62433)" description="apple" name="Pentyl pentanoate">QTY: 1.982</ester>
+      <ester CID="Compound(31265)" description="pineapple, waxy-green banana" name="Ethyl hexanoate">QTY: 4.743</ester>
+      <ester CID="Compound(8038)" description="cherry, raspberry, strawberry" name="Isobutyl acetate">QTY: 2.859</ester>
+      <ester CID="Compound(62321)" description="peach" name="Linalyl butyrate">QTY: 20.723</ester>
+      <ester CID="Compound(6448)" description="pine" name="Bornyl acetate">QTY: 14.125</ester>
+    </compounds>
+  </source>
+  <source bank="F" flow="continuous" mBar="0.41">
+    <compounds>
+      <ester CID="Compound(31265)" description="pineapple, waxy-green banana" name="Ethyl hexanoate">QTY: 20.166</ester>
+      <ester CID="Compound(4133)" description="Modern root beer, wintergreen, Germolene" name="Methyl salicylate">QTY: 17.239</ester>
+      <ester CID="Compound(8635)" description="cherry" name="Terpenyl butyrate">QTY: 31.168</ester>
+      <ester CID="Compound(61030)" description="parsnip" name="Octyl butyrate">QTY: 12.037</ester>
+      <ester CID="Compound(10890)" description="apricot, pear, pineapple" name="Pentyl butyrate">QTY: 55.303</ester>
+      <ester CID="Compound(7559)" description="honey" name="Methyl phenylacetate">QTY: 2.607</ester>
+      <ester CID="Compound(62433)" description="apple" name="Pentyl pentanoate">QTY: 10.881</ester>
+      <ester CID="Compound(10890)" description="apricot, pear, pineapple" name="Pentyl butyrate">QTY: 3.667</ester>
+    </compounds>
+  </source>
+  <source bank="S" flow="continuous" mBar="0.51">
+    <compounds>
+      <ester CID="Compound(31251)" description="grape" name="Ethyl nonanoate">QTY: 25.157</ester>
+      <ester CID="Compound(5355856)" description="cherry" name="Geranyl butyrate">QTY: 30.900</ester>
+      <ester CID="Compound(5355856)" description="cherry" name="Geranyl butyrate">QTY: 16.270</ester>
+      <ester CID="Compound(10886)" description="apple, pineapple" name="Pentyl hexanoate">QTY: 3.128</ester>
+      <ester CID="Compound(10882)" description="apple" name="Ethyl pentanoate">QTY: 76.927</ester>
+      <ester CID="Compound(12348)" description="apple, banana" name="Amyl acetate">QTY: 6.746</ester>
+      <ester CID="Compound(7945)" description="apple" name="Ethyl isovalerate">QTY: 47.934</ester>
+      <ester CID="Compound(12206)" description="flowery" name="Methyl pentanoate">QTY: 7.638</ester>
+      <ester CID="Compound(637520)" description="strawberry" name="Methyl cinnamate">QTY: 4.107</ester>
+      <ester CID="Compound(10957)" description="raspberry" name="Isobutyl formate">QTY: 20.429</ester>
+    </compounds>
+  </source>
+  <source bank="M" flow="inter" mBar="0.00">QTY: 0.95</source>
+</FML>

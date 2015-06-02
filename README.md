@@ -3,7 +3,9 @@ CFS(m): universal paradigm for computational flavor synthesis.
 
 Lanza T.<sup>1</sup> and Benque D.<sup>2</sup>
 
-<sup>1</sup>: Lanza affiliation <sup>2</sup>: Benque affiliation
+<sup>1</sup> NMRC (National Mango Research Centre), London UK
+<sup>2</sup> IRMA (International Ramen Manufacturers Association), Paris
+FR
 
 Abstract
 --------

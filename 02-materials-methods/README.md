@@ -43,7 +43,7 @@ machine-readable. A working data structure (fig. 6) was used for the
 purpose of this study while the full schema definition is being drafted
 by the team.
 
-Please see example files in the [FML directory](FML/)
+Please see example files in the [FML directory](../FML/)
 
     FML File
      |– Author
@@ -61,7 +61,7 @@ Please see example files in the [FML directory](FML/)
            |- Compounds
               |- Esters
 
-**Fig. 6** FML Data Structure - see [example file](FML/example.fml.xml)
+**Fig. 6** FML Data Structure - see [example file](../FML/example.fml.xml)
 
 ### Blind Tests
 

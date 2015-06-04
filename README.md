@@ -7,7 +7,7 @@ Lanza T.<sup>1</sup> and Benque D.<sup>2</sup>
 <sup>2</sup> IRMA (International Ramen Manufacturers Association), Paris
 FR
 
-**Table of Contents: **   
+**Table of Contents:**   
 1. [Abstract and Introduction](https://github.com/davidbenque/CFS-m-)  
 2. [Materials and Methods](02-02-materials-methods/)  
 &nbsp;&nbsp;&nbsp;&nbsp;a. [Experimental Design](https://github.com/davidbenque/CFS-m-/tree/master/02-materials-methods#experimental-design)  

@@ -14,7 +14,7 @@ into the final output. Synthesis instructions were compiled by the FML
 parser and transmitted to the synthesizer synchronously using our SODA
 Streaming API.
 
-![](figures/Experimental_Design.jpg)
+![](Experimental_Design.jpg)
 
 **Fig. 4 Experimental Design**
  **A:** HPLC Rack with 4 input banks Bank C: Coca-Cola Classic™ (liquid)
@@ -26,7 +26,7 @@ valve - capacity: 50ml
 
 ### Microfuidic Lab-On-Chip Separator
 
-![](figures/Lab-on-chip_C-separator.jpg)
+![](Lab-on-chip_C-separator.jpg)
 
 **Fig. 5 Lab-On-Chip Microchannel design**
  Showing separation pathways for Coca-Cola Classic into its 15 basic

@@ -54,17 +54,21 @@ spectrum (fig. 1). Such results are typically commissioned and used to
 optimise production systems by 1) Reducing costs across multiple product
 outputs. 2) Maximising the use of waste fractions into new outputs.
 
-![](figures/Flavor-Spectrum.jpg) **Fig. 1 Flavor Spectrum**
+![](figures/Flavor-Spectrum.jpg) 
+
+**Fig. 1 Flavor Spectrum**  
  Linear classification of flavors<sup>[9](#fn:9)</sup>
 
 ![](figures/Correlation-Reports/CC-880.jpg) **A**
 
- **Fig. 2 Flavor Correlation Chart**
- **A.** Computational model output exemplar showing Correlation
-Coefficient (CC) for a given triple. **B.** Full result set [See full
-dataset](figures/Correlation-Reports)
-
 ![](figures/CC_contact-sheet.jpg) **B**
+
+ **Fig. 2 Flavor Correlation Chart**  
+ **A.** Computational model output exemplar showing Correlation
+Coefficient (CC) for a given triple. **B.** Full result set  
+[See full dataset](figures/Correlation-Reports)
+
+----------
 
 One recent study involved a top-tier market sample of 52 products on
 which we were running our established series of analysis methods. The

@@ -9,7 +9,7 @@ FR
 
 **Table of Contents:**   
 1. [Abstract and Introduction](https://github.com/davidbenque/CFS-m-)  
-2. [Materials and Methods](02-02-materials-methods/)  
+2. [Materials and Methods](02-materials-methods/)  
 &nbsp;&nbsp;&nbsp;&nbsp;a. [Experimental Design](https://github.com/davidbenque/CFS-m-/tree/master/02-materials-methods#experimental-design)  
 &nbsp;&nbsp;&nbsp;&nbsp;b. [Microfuidic Lab-On-Chip Separator](https://github.com/davidbenque/CFS-m-/tree/master/02-materials-methods#microfuidic-lab-on-chip-separator)  
 &nbsp;&nbsp;&nbsp;&nbsp;c. [Flavor Markup Language (FML)](https://github.com/davidbenque/CFS-m-/tree/master/02-materials-methods#flavor-markup-language-fml)  
